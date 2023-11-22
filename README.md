@@ -13,7 +13,7 @@
 5. Clone the repository locally using `git clone` so that you can run the install command.
 6. Inside of the cloned directory, run the install command: `oc create -f argocd/`
 
-## What happens when you run the install command
+## What Happens When You Run the Install Command
 1. The oc command will create an ClusterRoleBinding that authorizes OpenShift GitOps to make changes to your cluster (i.e. give it the cluster-admin role)
 2. The oc command will create an ApplicationSet that GitOps will use to create some applications
 3. ArgoCD will see the ApplicationSet and create two Applications in the openshift-gitops namespace: 3scale-dev and 3scale-test
