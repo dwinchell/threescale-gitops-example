@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: 3scale
+  namespace: openshift-gitops
+spec:
+  generators:
+    - list:
+        elements:
+          - environment: dev
+          - environment: test
+  template:
+    metadata:
+      name: '3scale-{{environment}}'
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/dwinchell/threescale-gitops-example.git
+        targetRevision: HEAD
+        path: 'overlays/{{environment}}'
+      destination:
+        server: 'https://kubernetes.default.svc'
+        namespace: '3scale-{{environment}}'
+
