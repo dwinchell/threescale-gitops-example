@@ -1,9 +1,10 @@
 # 3Scale GitOps Example
+This is a minimal example of how to create 3Scale instances using OpenShift GitOps and the 3Scale Operator.
 
 ## Prerequisites
-* Red Hat Integration 3Scale operator is installed
-* Red Hat OpenShift GitOps operator is installed
-* OpenShift GitOps is configured with the correct permissions to make changes to the target namespaces
+* Red Hat Integration 3Scale Operator is installed.
+* Red Hat OpenShift GitOps operator is installed.
+* OpenShift GitOps is configured with the correct permissions to make changes to the target namespaces.
 
 ## Installation Instructions
 
