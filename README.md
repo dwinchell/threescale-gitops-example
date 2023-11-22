@@ -8,7 +8,7 @@
 ## Installation Instructions
 
 1. Either clone this entire repo into your enterprise Git server, or copy whichever files you want into an existing repository. You will need the files under argocd/ base/ and overlays/.
-2. Update argocd/applicationset.yaml to change the repoURL field to point at your own git repository. Use the same URL that you would use for `git clone https://...`.
+2. Update argocd/applicationset.yaml to change the repoURL field to point at your own git repository. Use the same URL that you would use for `git clone`.
 3. If your Git server requires authentication or the ssh protocol for cloning, go to the ArgoCD console -> Settings -> Connect Repo and fill in your server's information.
 4. Clone the repository locally so that you can run the install command.
 5. Inside the cloned directory, run `oc create -f argocd/`
