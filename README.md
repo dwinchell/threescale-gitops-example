@@ -23,5 +23,4 @@
 7. The 3Scale operator will see the ApiManager objects and create the DeploymentConfigs, Routes and other resources that make up 3Scale.
 
 ## Notes
-* Reference for kustomize.yaml and set-wildcard-domain.yaml: https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/.
-* OpenShift GitOps uses the equivalent `kubectl kustomize` internally.
+* See this reference for how kustomize.yaml and set-wildcard-domain.yaml work: https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/.
