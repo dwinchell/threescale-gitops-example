@@ -1,0 +1,10 @@
+apiVersion: apps.3scale.net/v1alpha1
+kind: APIManager
+metadata:
+  name: 3scale-apimanager
+spec:
+  apicast:
+    productionSpec:
+      replicas: 1
+  wildcardDomain: example.com
+
