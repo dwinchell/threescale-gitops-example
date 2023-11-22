@@ -3,7 +3,5 @@ kind: APIManager
 metadata:
   name: 3scale-apimanager
 spec:
-  apicast:
-    productionSpec:
-      replicas: 1
+  wildcardDomain: test.example.com
 
