@@ -1,4 +1,4 @@
-# threescale-gitops-example
+# 3Scale GitOps Example
 
 ## Prerequisites
 * Red Hat Integration 3Scale operator is installed
