@@ -4,5 +4,4 @@ resources:
   - ../../base
 patchesStrategicMerge:
   - set-wildcard-domain.yaml
-  - increase-replicas.yaml
 

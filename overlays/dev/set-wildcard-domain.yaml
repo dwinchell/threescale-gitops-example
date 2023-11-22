@@ -3,5 +3,5 @@ kind: APIManager
 metadata:
   name: 3scale-apimanager
 spec:
-  wildcardDomain: test.example.com
+  wildcardDomain: dev.example.com
 
